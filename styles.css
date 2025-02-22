@@ -25,3 +25,15 @@ body {
 .square:hover {
     background-color: red;
 }
+button {
+    background-color: #0e9efd;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.3s, transform 0.1s;
+}
