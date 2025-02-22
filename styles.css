@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b9b0b0c4;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping of squares to new rows */
+    width: 790px;  /* 16 * 44.75px */
+    height: 720px; /* 16 * 44.75px */
+    border: px solid black;
+}
+
+.square {
+    width: 44.75px;  /* 720px ÷ 16 */
+    height: 44.75px; /* 720px ÷ 16 */
+    background-color: white;
+    border: 1px solid #16669b62;
+    transition: background-color 0.2s;
+}
+
+.square:hover {
+    background-color: red;
+}
