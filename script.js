@@ -8,6 +8,11 @@ function createGrid(size) {
         const square = document.createElement("div");
         square.classList.add("square");
         container.appendChild(square);
+        
+        // Here i added the hovering effect by using mouse enter
+        square.addEventListener("mouseenter", function() {
+            square.style.backgroundColor = "red"
+        })
     }
 
 }
@@ -25,3 +30,8 @@ button.addEventListener("click", function() {
 })
 
 createGrid(16) // The normal
+
+
+square.addEventListener("hover", function() {
+
+})

@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #b9b0b0c4;
+    background-color: #131313d7;
 }
 
 .container {
@@ -26,14 +26,17 @@ body {
     background-color: red;
 }
 button {
-    background-color: #0e9efd;
-    color: white;
-    border: none;
+    margin-top: 20px;
     padding: 10px 20px;
-    font-size: 18px;
-    font-weight: bold;
-    border-radius: 5px;
+    border: none;
+    background-color: #ff4d4d;
+    color: white;
+    font-size: 16px;
     cursor: pointer;
-    margin-bottom: 20px;
-    transition: background-color 0.3s, transform 0.1s;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: #cc0000;
 }
