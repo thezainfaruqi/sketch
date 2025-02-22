@@ -1,37 +1,57 @@
-# Etch-a-Sketch
+### **Etch-a-Sketch (Web-Based Pixel Drawing App)**  
 
-A simple browser-based Etch-a-Sketch game built using HTML, CSS, and JavaScript. Users can draw on a grid by moving their mouse over it, just like a classic Etch-a-Sketch toy.
+**Etch-a-Sketch** project built using **HTML, CSS, and JavaScript**. It allows users to draw on a dynamically generated grid by hovering their mouse over the squares. Users can also customize the grid size using a button prompt.  
 
-## Features
-- **Dynamic Grid**: Users can change the grid size for a finer or coarser drawing experience.
-- **Hover to Draw**: Move your mouse over the grid to create drawings.
-- **Custom Colors**: Choose different colors for drawing.
-- **Eraser Mode**: Clear specific sections by erasing.
-- **Clear Button**: Reset the entire grid.
-- **Responsive Design**: Works on different screen sizes.
+---
 
-## Technologies Used
-- HTML
-- CSS
-- JavaScript (DOM Manipulation, Event Listeners)
+## **Features**  
+✔️ **Dynamic Grid Creation** – The grid is generated dynamically using JavaScript.  
+✔️ **Flexbox Layout** – No CSS Grid is used; only **Flexbox** ensures proper alignment.  
+✔️ **Hover Effect** – When the mouse hovers over a grid square, it changes color.  
+✔️ **Custom Grid Size** – Users can set a new grid size (up to **100x100**) through a prompt.  
+✔️ **Responsive & Scalable** – The grid adapts to fit the **960px width**, keeping square proportions.  
 
-## How to Use
-1. Open the project in a web browser.
-2. Move your mouse over the grid to start drawing.
-3. Use the controls to change colors, erase, or reset the grid.
+---
 
-## Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/etch-a-sketch.git
-   ```
-2. Open `index.html` in your browser.
+## **How It Works**  
+1. Open the webpage, and a **16x16 default grid** appears.  
+2. Hovering over squares **changes their color**, leaving a "pixelated trail."  
+3. Click the **"Enter Grid Value"** button to change the grid size.  
+4. Enter a number (between 1 and 100) to create a new grid of that size.  
+5. The existing grid is **cleared and replaced** with the new one.  
 
-## Future Improvements
-- Add a rainbow mode for colorful drawings.
-- Implement a save feature to download drawings.
-- Introduce touch support for mobile devices.
+---
 
-## License
-This project is open-source and available under the MIT License.
+## **Installation & Usage**  
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/yourusername/etch-a-sketch.git
+cd etch-a-sketch
+```
+### 2️⃣ Open the `index.html` file  
+You can simply open `index.html` in a browser or use **Live Server** in VS Code.  
 
+---
+
+## **Technologies Used**  
+- **HTML** – Basic structure of the webpage  
+- **CSS (Flexbox)** – Styling and layout  
+- **JavaScript (DOM Manipulation)** – Dynamic grid creation and hover effects  
+
+---
+
+## **Future Improvements** 🚀  
+🔹 Add a **"Clear Grid"** button to reset without changing the size.  
+🔹 Allow users to **choose colors** instead of just red.  
+🔹 Add a **rainbow mode** for randomized colors.  
+🔹 Implement an **eraser mode** to remove colors.  
+
+---
+
+## **Contributing**  
+Contributions are welcome! Feel free to fork the repository and submit a pull request.  
+
+---
+
+## **License**  
+📜 This project is licensed under the **MIT License**.  
