@@ -5,11 +5,11 @@
 ---
 
 ## **Features**  
-✔️ **Dynamic Grid Creation** – The grid is generated dynamically using JavaScript.  
-✔️ **Flexbox Layout** – No CSS Grid is used; only **Flexbox** ensures proper alignment.  
-✔️ **Hover Effect** – When the mouse hovers over a grid square, it changes color.  
-✔️ **Custom Grid Size** – Users can set a new grid size (up to **100x100**) through a prompt.  
-✔️ **Responsive & Scalable** – The grid adapts to fit the **960px width**, keeping square proportions.  
+**Dynamic Grid Creation** – The grid is generated dynamically using JavaScript.  
+**Flexbox Layout** – No CSS Grid is used; only **Flexbox** ensures proper alignment.  
+**Hover Effect** – When the mouse hovers over a grid square, it changes color.  
+**Custom Grid Size** – Users can set a new grid size (up to **100x100**) through a prompt.  
+**Responsive & Scalable** – The grid adapts to fit the **960px width**, keeping square proportions.  
 
 ---
 
